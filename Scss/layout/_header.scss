@@ -1,0 +1,81 @@
+.header-hero-wrapper {
+  background-color: $bg-color;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.site-header__container {
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  border-radius: 75px;
+  padding: 10px 10px 10px 21px;
+  // justify-content: space-between;
+}
+
+.site-header__logo-link {
+  margin-right: 73px;
+  display: flex;
+}
+
+.sitenav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 41px;
+}
+
+.sitenav__link {
+  text-decoration: none;
+  color: $text-color;
+  font-size: 13px;
+  line-height: 13.57px;
+  transition: color 0.4s ease;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.login-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.login-link {
+  color: $login-link-color;
+  font-size: 13px;
+  line-height: 13.57px;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: color 0.4s ease;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.site-header__btn {
+  background-color: $blue;
+  color: $white;
+  font-size: 12px;
+  line-height: 12.53px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 34px;
+  text-decoration: none;
+  transition: background-color 0.4s ease;
+
+  &:hover {
+    background-color: $orange;
+  }
+}
+
