@@ -52,10 +52,10 @@
           </h1>
           <hr class="hero__hr">
           <p class="hero__text">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
-          <a class="btn hero__btn" href="#">
+          <button class="btn hero__btn hero-btn">
             <span class="hero__btn-text">Пройти тестирование</span>
             <img src="./img/btn-arrow.svg" alt="btn icon">
-          </a>
+          </button>
         </div>
         <div>
           <img class="hero__img" src="./img/hero-img.png" alt="computer img" width="390" height="408">
@@ -367,6 +367,27 @@
     </div>
   </footer>
   <!-- /SITE-FOOTER -->
+
+  <section class="modal">
+    <div class="modal__container container">
+      <div class="modal__dialog">
+        <button class="modal__close js-modal-close">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="13.6328" width="19.2797" height="1.37712" transform="rotate(-45 0 13.6328)" fill="currentColor"/>
+            <rect x="13.6328" y="14.6066" width="19.2797" height="1.37712" transform="rotate(-135 13.6328 14.6066)" fill="currentColor"/>
+          </svg>            
+        </button>
+        <div class="modal__content">
+          <h2 class="modal__title">Перед тем, как приступить к обучению, необходимо пройти небольшой тест</h2>
+          <p class="modal__text">Тест состоит из 4 заданий на логическое мышление и прочие навыки, необходимые программисту. Задания не самые простые. Но ни в коем случае не выбирайте ответы наугад. Если вы не можете дать правильный ответ – выбирайте пункт «Не знаю».</p>
+          <a class="btn hero__btn modal__btn" href="#">
+            <span class="hero__btn-text">Начать обучение</span>
+            <img src="./img/btn-arrow.svg" alt="btn icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="js/main.js"></script>
 </body>

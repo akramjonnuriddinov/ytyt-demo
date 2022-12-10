@@ -57,6 +57,8 @@
 }
 
 .hero__btn {
+  border: none;
+  cursor: pointer;
   color: $white;
   background-color: $orange;
   padding: 27px 50px 28px 45px;
