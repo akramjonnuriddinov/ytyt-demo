@@ -17,6 +17,12 @@
           <img class="site-header__logo-img" src="./img/logo.svg" alt="Site logo" width="53" height="19">
         </a>
         <nav class="sitenav">
+          <button class="sitenav__close js-sitenav-close">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="13.6328" width="19.2797" height="1.37712" transform="rotate(-45 0 13.6328)" fill="currentColor"/>
+              <rect x="13.6328" y="14.6066" width="19.2797" height="1.37712" transform="rotate(-135 13.6328 14.6066)" fill="currentColor"/>
+            </svg>            
+          </button>
           <ul class="sitenav__list">
             <li class="sitenav__item">
               <a class="sitenav__link" href="#">Чему вы научитесь</a>
@@ -30,7 +36,14 @@
             <li class="sitenav__item">
               <a class="sitenav__link" href="#">Контакты</a>
             </li>
+            <li class="sitenav__item sitenav-register">
+              <a class="sitenav__link" href="#">Регистрация</a>
+            </li>
           </ul>
+          <a class="site-header__btn sitenav__btn" href="#">
+            <img  src="./img/arrow-icon.svg" alt="">
+            <span>Войти</span>
+          </a>
         </nav>
         <div class="login-wrapper">
           <a class="login-link" href="#">Регистрация</a>
@@ -39,6 +52,9 @@
             <span>Войти</span>
           </a>
         </div>
+        <button class="hamburger-btn js-hamburger-btn" type="button">
+          <img class="hamburger-icon" src="./img/hamburger.svg" alt="">
+        </button>
       </div>
     </header>
     <!-- /SITE-HEADER -->

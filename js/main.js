@@ -9,3 +9,17 @@ elHeroBtn.addEventListener('click', function() {
 elModalClose.addEventListener('click', function() {
   elModal.classList.remove('modal--open');
 })
+
+// *****
+const elHamburgerBtn = document.querySelector('.js-hamburger-btn');
+const elSitenav = document.querySelector('.sitenav');
+const elSitenavClose = document.querySelector('.js-sitenav-close');
+
+elHamburgerBtn.addEventListener('click', function() {
+  elSitenav.classList.add('sitenav--open');
+  elSitenavClose.classList.add('sitenav--open');
+})
+
+elSitenavClose.addEventListener('click', function() {
+  elSitenav.classList.remove('sitenav--open')
+})

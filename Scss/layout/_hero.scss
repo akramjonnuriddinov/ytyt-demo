@@ -5,6 +5,7 @@
 .hero__container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 66px;
