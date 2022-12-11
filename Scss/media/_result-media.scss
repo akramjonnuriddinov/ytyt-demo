@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  .result__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 22px;
+  }
+
+  .result__item {
+    max-width: 145px;
+  }
+
+  .result__item:last-child {
+    max-width: 100%;
+  }
+
+  .result__item-title {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .result__item-text {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}

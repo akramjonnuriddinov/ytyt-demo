@@ -17,6 +17,7 @@
   padding: 42px 104px 0 123px;
   border-radius: 48px;
   display: flex;
+  // flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -36,6 +37,7 @@
 
 .skills__item {
   text-decoration: none;
+  white-space: nowrap;
   color: $white;
   padding: 11px 16px;
   border-radius: 44px;
