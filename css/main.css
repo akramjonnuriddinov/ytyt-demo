@@ -1095,6 +1095,7 @@ tr:nth-child(even) {
 .contact__text {
   max-width: 600px;
   width: 100%;
+  margin: 0;
   margin-right: 23px;
   font-size: 17px;
   line-height: 22px;
@@ -1580,5 +1581,34 @@ tr:nth-child(even) {
   }
   tr td, tr th {
     white-space: nowrap;
+  }
+}
+@media (max-width: 900px) {
+  .contact {
+    background-color: #F9F8FD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact__container {
+    flex-direction: column;
+    background-color: #EAF2F5;
+    padding-top: 38px;
+    padding-bottom: 54px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .contact__text {
+    margin-right: 0;
+    max-width: 100%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */

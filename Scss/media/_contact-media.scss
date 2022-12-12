@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+  .contact {
+    background-color: #F9F8FD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact__container {
+    flex-direction: column;
+    background-color: $bg-color;
+    padding-top: 38px;
+    padding-bottom: 54px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .contact__text {
+    margin-right: 0;
+    max-width: 100%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+}
