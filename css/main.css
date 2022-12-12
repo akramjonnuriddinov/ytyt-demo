@@ -1019,6 +1019,7 @@ body {
 
 .price__text {
   line-height: 21px;
+  margin: 0;
 }
 
 /*TABLE*/
@@ -1539,5 +1540,45 @@ tr:nth-child(even) {
   }
   .support__inner {
     max-width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .price__definition {
+    flex-direction: column;
+  }
+  .price__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 21px;
+    max-width: 100%;
+  }
+  .price__text {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .price__title {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .price__item {
+    flex-direction: column;
+  }
+  .price__img {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .price__text {
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  tr td, tr th {
+    white-space: nowrap;
   }
 }/*# sourceMappingURL=main.css.map */
