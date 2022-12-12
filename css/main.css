@@ -1522,4 +1522,22 @@ tr:nth-child(even) {
   .features__btn {
     width: 100%;
   }
+}
+@media (max-width: 860px) {
+  .support__item {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 !important;
+  }
+  .support__item div {
+    margin: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .support__item .support__img-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .support__inner {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
